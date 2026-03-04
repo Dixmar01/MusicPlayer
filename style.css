@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
 
 * {
     padding: 0;
@@ -15,15 +16,16 @@ body {
     margin: 0 auto;
     height: 100%;
     flex-direction: column;
-    font-size: 35px;
+    padding-left: 122px;
     background: white;
     width: 1440px;
 }
 
 .header_page {
-    min-height: 1024px;
+    height: 1024px;
     background-image: url(image/Фон.jpg);
     color: white;
+    background-size: cover;
 }
 
 .navigation {
@@ -62,6 +64,13 @@ body {
     padding-right: 50px;
 }
 
+.page_banner_flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 337px;
+    min-width: 120px;
+}
+
 .container_page_header {
     justify-content: space-between;
     gap: 337px;
@@ -97,23 +106,27 @@ body {
 }
 
 .phone_iphone {
-    position: relative;
-    right: -750px;
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: 2;
-    top: -600px;
+    width: 500px;
+    height: 890px;
+    left: -127px;
 }
 
 .phone_cabel {
     position: absolute;
-    bottom: 300px;
-    right: -735px;
+    bottom: -4px;
+    left: -70px;
     height: 158px;
-    z-index: 0;
+    z-index: 1;
 }
 
 #page_two {
     background-color: #D53005;
     height: 1024px;
+    top: 1024px;
 }
 
 .main_header {
@@ -123,23 +136,128 @@ body {
     font-style: normal;
     font-size: 30px;
     margin-left: 122px;
-    margin-top: 83px;
+    padding-top: 83px;
     width: 84px;
     height: 35px;
     color: white;
 }
 
-.main_buttons {
+.btn_page_music {
+    padding-left: 122px;
+    display: flex;
+    align-items: center;
+
+}
+
+.main_buttons_music {
     width: 382px;
     height: 83px;
-    background: radial-gradient(to right, #B13E18, #F3501A);
 }
+ .button_music {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    width: 382px;
+    height: 83px;
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    border: 1px solid rgba(0, 0, 0, 0.1);;
+    color: white;
+    box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.1), 4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+    margin-top: 88px;
+ }
 
 .image_disc {
-    
-
     width: 1000px;
     height: 666.5px;
+    position: relative;
+    right: 65px;
+    top: 150px;
 }
 
+#about {
+    background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+    height: 1024px;
+    color: white;
+}
+
+.about_text {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    width: 81px;
+    height: 35px;
+    padding-top: 83px;
+    padding-left: 122px;
+}
+
+.about_main_text {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    width: 969px;
+    height: 72px;
+    margin-top: 476px;
+    margin-left: 275px;
+    line-height: 35.07px;
+}
+
+#store {
+    background-color: #D53005;
+    height: 1024px;
+    color: white;
+}
+
+.content_page_store {
+    margin-top: 141px;
+    width: 1440px;
+}
+
+.store_text {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 83px;
+    padding-left: 122px;
+}
+
+.btn_store {
+  display: block;
+  width: 240px;
+  height: 60px;
+  opacity: 1;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 254px;
+  margin-left: 110px;
+  top: 254px;
+  left: 110px;
+}
+
+.btn1_store {
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.1), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(2, 2, 2, 0.9);
+    color: #fff;
+    border: none;
+}
+
+.btn2_store {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.1), 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 48px;
+    margin-bottom: 135px;
+}
 
